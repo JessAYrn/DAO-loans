@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "DAO-loans-backend": {
+      "main": "src/DAO-loans-backend/main.mo",
+      "type": "motoko"
+    },
+    "DAO-loans-frontend": {
+      "dependencies": [
+        "DAO-loans-backend"
+      ],
+      "source": [
+        "src/DAO-loans-frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "DAO-loans-frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
