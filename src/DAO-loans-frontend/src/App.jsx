@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { DAO_loans_backend } from 'declarations/DAO-loans-backend';
+import { DAO_loans_backend } from '../../index.template';
 
 function App() {
   const [greeting, setGreeting] = useState('');
